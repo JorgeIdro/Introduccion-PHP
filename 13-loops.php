@@ -60,7 +60,7 @@ echo ' elementos en el array<br><br>';
 
 // con Foreach iteramos en el array, este detectara cuando termine automáticamente
 echo 'For Each<br>';
-foreach($clientes as $cliente) {
+foreach($clientes as $cliente) { // cliente es un nombre temporal
     echo $cliente, '<br>';
 }
 
@@ -80,7 +80,7 @@ $cliente = [
     'tipo' => 'premium'
 ];
 echo 'For each para arreglos asociativos<br>';
-foreach($cliente as $valor) {
+foreach($cliente as $valor) { // valor es un nombre temporal
     echo $valor, '<br>';
 }
 
