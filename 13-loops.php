@@ -71,6 +71,7 @@ for ($i=0; $i < count($clientes); $i++):
 endfor; // esta es una alternativa a las llaves
 
 echo '<br>';
+
 // For Each para arreglos asociativos
 
 $cliente = [
